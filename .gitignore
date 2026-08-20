@@ -1,4 +1,24 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+*$py.class
+
+# Python Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
+
+# Operating System & IDE Artifacts
+.DS_Store
 Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Power BI Auto-Recovery & Backup Cache (keeps main .pbix safe)
+*.tmp
+*.pbix.temp
